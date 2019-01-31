@@ -1,0 +1,58 @@
+{
+    "success": true,
+    "data": {
+        "topicList": [{
+            "id": 1,
+            "title": "社会热点",
+            "imgUrl": "https://upload.jianshu.io/admin_banners/web_images/4605/1d5cb81933dbb48ab0aa53d481a1300fc5406e7f.png?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+        }, {
+            "id": 2,
+            "title": "手绘",
+            "imgUrl": "https://upload.jianshu.io/admin_banners/web_images/4605/1d5cb81933dbb48ab0aa53d481a1300fc5406e7f.png?imageMogr2/auto-orient/strip|imageView2/1/w/1250/h/540"
+        }],
+        "articleList": [{
+            "id": 1,
+            "title": "终于发现我国为什么派嫦娥4号去月球了，原来月球上藏有大秘密!",
+            "desc": "月球上的外星人基地，月球是地球黑夜的光明使者，但那一片总是带来皎洁晶莹月光的阴晴圆缺的球体，在中国人的眼中，更带有一番浪漫的情怀，自古以来，那里...",
+            "imgUrl": "https://upload-images.jianshu.io/upload_images/10907624-ddfb947895cf38c6.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        },
+        {
+            "id": 2,
+            "title": "终于发现我国为什么派嫦娥4号去月球了，原来月球上藏有大秘密!",
+            "desc": "月球上的外星人基地，月球是地球黑夜的光明使者，但那一片总是带来皎洁晶莹月光的阴晴圆缺的球体，在中国人的眼中，更带有一番浪漫的情怀，自古以来，那里...",
+            "imgUrl": "https://upload-images.jianshu.io/upload_images/10907624-ddfb947895cf38c6.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        },
+        {
+            "id": 3,
+            "title": "终于发现我国为什么派嫦娥4号去月球了，原来月球上藏有大秘密!",
+            "desc": "月球上的外星人基地，月球是地球黑夜的光明使者，但那一片总是带来皎洁晶莹月光的阴晴圆缺的球体，在中国人的眼中，更带有一番浪漫的情怀，自古以来，那里...",
+            "imgUrl": "https://upload-images.jianshu.io/upload_images/10907624-ddfb947895cf38c6.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        },
+        {
+            "id": 4,
+            "title": "终于发现我国为什么派嫦娥4号去月球了，原来月球上藏有大秘密!",
+            "desc": "月球上的外星人基地，月球是地球黑夜的光明使者，但那一片总是带来皎洁晶莹月光的阴晴圆缺的球体，在中国人的眼中，更带有一番浪漫的情怀，自古以来，那里...",
+            "imgUrl": "https://upload-images.jianshu.io/upload_images/10907624-ddfb947895cf38c6.jpeg?imageMogr2/auto-orient/strip|imageView2/1/w/360/h/240"
+        }],
+        "recommendList": [{
+            "id": 1,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-3-7123fd94750759acf7eca05b871e9d17.png"
+        },
+        {
+            "id": 2,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-4-b70da70d679593510ac93a172dfbaeaa.png"
+        }, 
+        {
+            "id": 3,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-7-1a0222c91694a1f38e610be4bf9669be.png"
+        }, 
+        {
+            "id": 4,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-5-4ba25cf5041931a0ed2062828b4064cb.png"
+        },
+        {
+            "id": 5,
+            "imgUrl": "https://cdn2.jianshu.io/assets/web/banner-s-6-c4d6335bfd688f2ca1115b42b04c28a7.png"
+        }]
+    }
+}

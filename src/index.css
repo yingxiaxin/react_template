@@ -1,0 +1,14 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: '微软雅黑', 'Microsoft YaHei';
+}
+
+@import './statics/iconfont/iconfont.css';

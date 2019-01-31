@@ -1,0 +1,194 @@
+.header_wrapper {
+    height: 58px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+
+    .iconfont {
+        margin: 0 5px;
+    }
+
+    .logo {
+        height: 58px;
+        width: 100px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: url(../../statics/logo.png);
+        background-size: contain;
+    }
+
+    nav {
+        width: 960px;
+        height: 100%;
+        margin: 0 auto;
+
+        span {
+            line-height: 56px;
+            padding: 0 15px;
+            font-size: 17px;
+            color: #333;
+
+            &.left {
+                float: left;
+            }
+            &.right {
+                float: right;
+                color: #969696;
+            }
+            &.active {
+                color: #ea6f5a;
+            }
+
+            &.iconfont {
+                margin-top: 2px;
+            }
+        }
+        
+        .search_wrapper {
+            position: relative;
+            float: left;
+            height: 56px;
+
+            #navSearch {
+                width: 160px;
+                height: 38px;
+                margin-top: 9px;
+                margin-left: 20px;
+                padding: 0 35px 0 20px;
+                border: none;
+                outline: none;
+                border-radius: 19px;
+                background: #eee;
+                font-size: 14px;
+                color: #666;
+                transition: width .3s ease-in-out;
+
+                &.focused {
+                    width: 240px;
+                    transition: width .3s ease-in-out;
+                }
+
+                &::placeholder {
+                    color: #999;
+                }
+            }
+
+            i.iconfont {
+                position: absolute;
+                right: 0;
+                bottom: 12px;
+                width: 30px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 50%;
+                transition: all .3s ease-in-out;
+    
+
+                &.focused {
+                    background: #777;
+                    color: white;
+                    transition: all .3s ease-in-out;
+                }
+            }
+        }
+
+        .search_info {
+            position: absolute;
+            left: 0;
+            top: 56px;
+            width: 240px;
+            padding: 0 20px;
+            box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+            background: #fff;
+
+            &::after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: -20px;
+                left: 30px;
+                width: 0;
+                height: 0;
+                border: 13px solid transparent;
+                border-bottom: 13px solid #fff;
+            }
+
+            i.spin {
+                position: absolute;
+                display: block;
+                top: 13px;
+                right: 55px;
+                cursor: pointer;
+                transition: all .2s;
+                transform: rotate(0deg);
+                transform-origin: center;
+            }
+
+            .search_info_title {
+                float: left;
+                margin-top: 20px;
+                margin-bottom: 15px;
+                line-height: 20px;
+                font-size: 14px;
+                color: #969696;
+            }
+
+            .search_info_switch {
+                float: right;
+                font-size: 13px;
+                padding: 0;
+                cursor: pointer;
+            }
+
+            .search_info_contents {
+                float: left;
+                overflow: hidden;
+
+                a {
+                    font-size: 12px;
+                    padding: 0 5px;
+                    line-height: 20px;
+                    border: 1px solid #ddd;
+                    color: #777;
+                    border-radius: 3px;
+                    display: block;
+                    float: left;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+    div.addition {
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 56px;
+
+        .btn {
+            float: right;
+            line-height: 38px;
+            border-radius: 19px;
+            margin-top: 9px;
+            margin-right: 20px;
+            padding: 0 20px;
+            border: 1px solid #ec6149;
+            font-size: 14px;
+        }
+
+        .reg {
+            color: #ec6149;
+        }
+
+        .writting {
+            color: #fff;
+            background: #ec6149;
+        }
+    }
+
+}

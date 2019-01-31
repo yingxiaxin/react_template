@@ -1,0 +1,21 @@
+.home_wrapper {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    .home_left {
+        margin-left: 15px;
+        padding-top: 30px;
+        width: 625px;
+        float: left;
+
+        .banner_img {
+            width: 625px;
+            height: 270px;
+        }
+    }
+    .home_right {
+        width: 280px;
+        float: right;
+    }
+}
