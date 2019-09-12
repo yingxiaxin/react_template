@@ -1,3 +1,5 @@
+由create-react-app脚手架构建，增加了redux、saga的简易react框架。
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
